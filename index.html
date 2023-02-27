@@ -830,54 +830,25 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
                       
                       
 
-    <div class="site-section bg-light contact-wrap" id="contact-section">
-      <div class="container">
-        
-        <div class="row justify-content-center text-center mb-5">
-          <div class="col-md-8  section-heading">
-            <span class="subheading"></span>
-            <h2 class="heading mb-3">Contact Us</h2>
-            <p> 
-            </p>
-          </div>
+   <div class="container">
+  <h1>Contact Us</h1>
+  <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
         </div>
-
-        <div class="row justify-content-center">
-          <div class="col-md-7">
-            <form action="https://formsubmit.co/b150ed6ede4c65f858d248afb90ee937" method="post" data-aos="fade">
-              <div class="form-group row">
-                <div class="col-md-6 mb-3 mb-lg-0">
-                  <input type="text" class="form-control" placeholder="First name">
-                </div>
-                <div class="col-md-6">
-                  <input type="text" class="form-control" placeholder="Last name">
-                </div>
-              </div>
-    
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <input type="text" class="form-control" placeholder="Subject">
-                </div>
-              </div>
-    
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <input type="email" class="form-control" placeholder="Email">
-                </div>
-              </div>
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <textarea class="form-control" id="contact-section" cols="30" rows="10"
-                    placeholder="Write your message here."></textarea>
-                </div>
-              </div>
-    
-              <div class="form-group row">
-                <div class="col-md-6">
-    
-                  <input type="submit" class="btn btn-primary py-3 px-5 btn-block" value="Send Message">
-                </div>
-              </div>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+  </form>
+</div>
     
             </form>
           </div>
